@@ -1,0 +1,22 @@
+name: jupyter
+changeps1: false
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - matplotlib
+  - numpy
+  - pandas
+  - pydotplus
+  - python=3.8
+  - scikit-image
+  - scikit-learn
+  - statsmodels
+  - tensorflow
+  - tqdm
+  - xgboost
+  - pip:
+    - turicreate
+pip_interop_enabled: True
+prefix: /opt/conda
